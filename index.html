@@ -3,23 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css">
+    <title>Duck Form</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="input">
-            <form action="">
-                <h3>FULL NAME</h3>
-                <input type="text" placeholder="">
-                <h3>EMAIL</h3>
-                <input type="email" placeholder="Your Email">
-                <h3>MESSAGE REGARDING</h3>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <h3>MESSAGE</h3>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <form class="form" action="">
+                <div class="input__form">
+                    <div class="input-form__align">
+                        <h3>FULL NAME</h3>
+                        <input class="border-none" type="text" placeholder="">
+                    </div>
+                    <div class="input-form__align">
+                        <h3>EMAIL</h3>
+                        <input class="border-none" type="email" placeholder="Your Email">
+                    </div>
+                    <div class="input-form__align">
+                        <h3>MESSAGE REGARDING</h3>
+                        <textarea class="border-none" name="" id="" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="input-form__align">
+                        <h3>MESSAGE</h3>
+                        <textarea class="border-none" name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="send-btn">
+                        <button><a href="#">SEND MESSAGE</a></button>
+                    </div>
+                </div>
             </form>
             <div class="duck-img">
-                <img src="images/duck.png" alt="a plastic duck toy">
+                <img class="duck-img__position" src="images/duck.png" alt="a plastic duck toy">
             </div>
         </div>
     </div>
