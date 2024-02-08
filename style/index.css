@@ -39,6 +39,7 @@ body{
 
 .input__form h3{
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .input-form__align{
@@ -56,10 +57,17 @@ body{
     outline: none;
 }
 
+::placeholder{
+    color: rgba(254, 255, 255, 1);
+    opacity: 1;
+    font-family: 'roboto' 'sans';
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
 .duck-img{
     background-color: rgba(255, 176, 57, 1);
     width: 40%;
-
 }
 
 .duck-img__position{
@@ -70,13 +78,20 @@ body{
     right: 40%;
 }
 
+
 .send-btn{
     background-color: rgba(70, 129, 137, 1);
     border-radius: 20px;
-    padding: 3%;
+    border: 0;
+    padding: 2% 4%;
     display: flex;
     justify-content: center;
     margin-top: 10%;
+}
+
+.center-btn{
+    display: flex;
+    justify-content: center;
 }
 .send-msg-btn{
     color: rgba(254, 255, 255, 1);
